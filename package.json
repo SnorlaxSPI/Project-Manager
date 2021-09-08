@@ -5,7 +5,8 @@
   "author": "SnorlaxSPI <aflinsjr@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev:server": "tsnd --respawn --files --ignore-watch node_modules --transpile-only src/app.ts"
+    "dev:server": "tsnd --respawn --files --ignore-watch node_modules --transpile-only src/app.ts",
+    "typeorm": "tsnd node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "express": "^4.17.1",
